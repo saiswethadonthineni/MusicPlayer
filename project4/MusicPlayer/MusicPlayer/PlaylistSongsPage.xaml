@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MusicPlayer.PlaylistSongsPage"
+             Title="{Binding Title}">
+    <CollectionView SelectionChanged="songClicked" SelectionMode="Single" HorizontalOptions="Fill" ItemsSource="{Binding playlistSongs}">
+        <CollectionView.ItemTemplate>
+            <DataTemplate>
+                <HorizontalStackLayout HorizontalOptions="Start">
+                    <Image WidthRequest="140" Source="{Binding Image}" Margin="8"></Image>
+                    <VerticalStackLayout VerticalOptions="Center">
+                        <Label Padding="4" VerticalOptions="Center"
+                                Text="{Binding Name}"
+                                FontAttributes="Bold" />
+                        <Label Padding="4" VerticalOptions="Center"
+                                Text="{Binding AlbumName}"
+                                FontAttributes="Italic" />
+                    </VerticalStackLayout>
+
+                </HorizontalStackLayout>
+            </DataTemplate>
+        </CollectionView.ItemTemplate>
+    </CollectionView>
+</ContentPage>

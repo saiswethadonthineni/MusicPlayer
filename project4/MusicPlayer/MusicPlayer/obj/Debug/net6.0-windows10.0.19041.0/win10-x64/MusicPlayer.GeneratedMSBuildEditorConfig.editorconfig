@@ -1,0 +1,70 @@
+is_global = true
+build_property.TargetFramework = net6.0-windows10.0.19041.0
+build_property.TargetPlatformMinVersion = 10.0.17763.0
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 9A19103F-16F7-4668-BE54-9A1E7A4F7556
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = MusicPlayer
+build_property.ProjectDir = C:\Users\donth\OneDrive\Desktop\final crossmobile\MusicPlayer\MusicPlayer\
+
+[C:/Users/donth/OneDrive/Desktop/final crossmobile/MusicPlayer/MusicPlayer/AlbumSongsPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MusicPlayer.AlbumSongsPage.xaml
+build_metadata.AdditionalFiles.TargetPath = AlbumSongsPage.xaml
+build_metadata.AdditionalFiles.RelativePath = AlbumSongsPage.xaml
+
+[C:/Users/donth/OneDrive/Desktop/final crossmobile/MusicPlayer/MusicPlayer/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MusicPlayer.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[C:/Users/donth/OneDrive/Desktop/final crossmobile/MusicPlayer/MusicPlayer/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MusicPlayer.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[C:/Users/donth/OneDrive/Desktop/final crossmobile/MusicPlayer/MusicPlayer/LibraryPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MusicPlayer.LibraryPage.xaml
+build_metadata.AdditionalFiles.TargetPath = LibraryPage.xaml
+build_metadata.AdditionalFiles.RelativePath = LibraryPage.xaml
+
+[C:/Users/donth/OneDrive/Desktop/final crossmobile/MusicPlayer/MusicPlayer/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MusicPlayer.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
+
+[C:/Users/donth/OneDrive/Desktop/final crossmobile/MusicPlayer/MusicPlayer/PlayerPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MusicPlayer.PlayerPage.xaml
+build_metadata.AdditionalFiles.TargetPath = PlayerPage.xaml
+build_metadata.AdditionalFiles.RelativePath = PlayerPage.xaml
+
+[C:/Users/donth/OneDrive/Desktop/final crossmobile/MusicPlayer/MusicPlayer/PlaylistPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MusicPlayer.PlaylistPage.xaml
+build_metadata.AdditionalFiles.TargetPath = PlaylistPage.xaml
+build_metadata.AdditionalFiles.RelativePath = PlaylistPage.xaml
+
+[C:/Users/donth/OneDrive/Desktop/final crossmobile/MusicPlayer/MusicPlayer/PlaylistSongsPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MusicPlayer.PlaylistSongsPage.xaml
+build_metadata.AdditionalFiles.TargetPath = PlaylistSongsPage.xaml
+build_metadata.AdditionalFiles.RelativePath = PlaylistSongsPage.xaml
+
+[C:/Users/donth/OneDrive/Desktop/final crossmobile/MusicPlayer/MusicPlayer/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MusicPlayer.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[C:/Users/donth/OneDrive/Desktop/final crossmobile/MusicPlayer/MusicPlayer/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MusicPlayer.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml

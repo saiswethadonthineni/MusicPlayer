@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MusicPlayer.PlaylistPage"
+             Title="Playlists">
+    <VerticalStackLayout BackgroundColor="BlueViolet">
+        <HorizontalStackLayout HorizontalOptions="End" Padding="10" Spacing="10">
+            <Entry x:Name="newPlaylistName" WidthRequest="300"
+           Placeholder="Enter new Playlist Name"/>
+            <Button Clicked="playlistCreate" Text="Create New Playlist"></Button>
+        </HorizontalStackLayout>
+        <HorizontalStackLayout HorizontalOptions="StartAndExpand" Padding="10" Spacing="60">
+            <Label FontAttributes="Bold" Padding="10" FontSize="24" Text="Playlists"></Label>
+            <Button Clicked="playlistChanged" Text="Go to Selected Playlist"></Button>
+            <Button Clicked="deletePlaylist" Text="Delete Selected Playlist"></Button>
+        </HorizontalStackLayout>
+        <CollectionView x:Name="playlistList" SelectionMode="Single" ItemsSource="{Binding Playlists}">
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <Label Padding="8" HorizontalOptions="Start"
+                                Text="{Binding Name}"
+                                FontAttributes="Bold" />
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+
+    </VerticalStackLayout>
+</ContentPage>
