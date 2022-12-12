@@ -15,3 +15,5 @@ The albums and songs can be added to the application in a simple way by adding t
 
 GithubID:114307137
 I have done the UI part.I have included the mainpage.library,play and playlist page.
+![image](https://user-images.githubusercontent.com/114307137/206953973-f6393082-360e-4ebd-bcb4-981baa7660ae.png)
+
